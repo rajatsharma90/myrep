@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+
+<test name="testA" allow-return-values="true">
+    <classes>
+        <class name="TestCases.gmail" ></class>  
+    </classes>
+</test>
+
+<test name="testC" allow-return-values="true">
+    <classes>
+        <class name="TestCases.testC" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
